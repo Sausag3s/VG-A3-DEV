@@ -4,6 +4,8 @@ Below are the Projects we are currently working on
 ## =VG= ArmaZ
 A DayZ-Like Mission powered by Ravage on the Map Chernarus Redux
 Here are the Planned Features:
+* Random Respawn System
+* Selective Respawn - E.G Spawn at Base if possible or Random
 * Hunger + Thirst System
 * Player Group System
 * Custom Loot System
