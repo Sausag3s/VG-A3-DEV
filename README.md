@@ -8,6 +8,8 @@ Here are the Planned Features:
 * Random Respawn System
 * Selective Respawn - E.G Spawn at Base if possible or Random
 * Hunger + Thirst System
+* Hunting/Fishing System
+* Crafting System
 * Player Group System
 * Custom Loot System
 * Base Building + Player/Group Base Claiming
