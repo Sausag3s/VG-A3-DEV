@@ -1,2 +1,5 @@
-# VG-A3-DEV
-A VG Development Team dedicated to creating missions on Arma 3
+# VETERANS-GAMING ARMA 3 DEVELOPMENT GITHUB
+A VG Development dedicated to creating missions on Arma 3
+Below are the Projects we are currently working on
+# =VG= ArmaZ
+A DayZ-Like Mission powered by Ravage
