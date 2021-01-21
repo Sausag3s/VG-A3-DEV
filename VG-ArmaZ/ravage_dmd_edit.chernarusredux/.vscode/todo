@@ -1,0 +1,28 @@
+MANUALLY CREATE A LOCKING FEATURE FOR MOVED OBJECTS - 2EZ, setvar/getvar. pretty little progress bar maybe.
+
+- later versions
+    once rhs updates and fixes the broken shotgun reloading. add them back in to the mission
+
+	the big city up near pobeda dam needs to become a radiated zone with roaming, gasmask wearing ai.
+
+    cleanup and fix broken shit in r3f? - maybe
+
+    land_money_f addaction to pick up $100 per item?
+
+    - once completed, convert to work on other maps. 
+        * ideas
+            - Tanoa (RHS only)
+            - Malden (RHS only)
+            -         
+    
+    ---- https://forums.bohemia.net/forums/topic/183264-ravage/?do=findComment&comment=3376815
+        tourist from biforums has given me a bug report from a dedi. 
+        work through and try to solve these problems. 
+
+/* -----------------------------------
+    File: filename.sqf
+    Author:  JakeHekesFists[DMD] 2019
+-------------------------------------- */
+
+known bugs:
+Ravage repair script does not seem to work with the BTR 40

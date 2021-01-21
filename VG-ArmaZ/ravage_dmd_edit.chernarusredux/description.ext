@@ -1,0 +1,43 @@
+#include "dmd_defines.h"
+#include "R3F_LOG\desc_include.h"
+
+#define HALs_DEF_INIT
+	#include "HALs\Addons\main\config.hpp"
+#undef HALs_DEF_INIT
+
+class RscTitles {
+	#include "StatusBar\statusBarCfg.hpp"
+};
+
+class CfgFunctions {
+	#include "dmd_functions.hpp"
+	#include "HALs\Core\functions.cpp"
+
+	#define HALs_DEF_FUNCTIONS
+		#include "HALs\Addons\main\config.hpp"
+	#undef HALs_DEF_FUNCTIONS
+};
+
+class Header {
+	gameType =  Survive;		// Game type
+	minPlayers =  1;			// minimum number of players the mission supports
+	maxPlayers = 50;			// maximum number of players the mission supports
+};
+
+author			= "JakeHekesFists[DMD]";
+OnLoadName		= "RAVAGE REDUX (DMD Edition)";
+OnLoadMission	= "Try to survive in a harsh, Zombie ravaged Wasteland. Avoid roaming Bandits, Complete AI Missions, Construct Bases using objects that litter the map and more...";
+loadScreen		= "images\loadScreen.paa";
+
+scriptedPlayer = 1;
+skipLobby = 0;
+respawn = "BASE";
+respawnButton = 0;
+respawnDelay = 10;
+respawnOnStart = 0;			// old value -1
+reviveMode = 0;
+respawnDialog = 0;
+respawnTemplates[] = {"MenuInventory","MenuPosition"};
+
+#include "dmd_respawn_config.hpp"
+#include "dmd_config.hpp" 
